@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Atiksh's Type Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3 id = "averageLabel">Average</h3>
+      <h3 id = "bestLabel">Best</h3>
+      <div class="prompt row" id="prompt-div"></div>
+      <h5 id="author"></h5>
+      <input
+        type="text"
+        id="typer"
+        class="type-area"
+        placeholder="Type prompt"
+        disabled
+        data-idx="0"
+      />
+      
+      <h4 id="time"></h4>
+      <button id="start-btn">Start</button>
+      <button id="new-game">New Game</button>
+
+      <div id="chart_div">
+        
+
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
